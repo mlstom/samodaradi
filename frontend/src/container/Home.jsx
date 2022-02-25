@@ -43,7 +43,7 @@ const Home = () => {
         <div className='hidden md:flex  h-full'  >
               <Sidebar user={user && user} /> 
         </div>
-        <div className='w-screen max-h-screen z-40'>
+        <div className='w-screen max-h-screen z-30'>
           <Routes>
             <Route path="/user-profile/:userId" element={<UserProfile />} />
             <Route path="/create-pin" element={<CreatePin user={user && user} />} />
@@ -53,7 +53,7 @@ const Home = () => {
         </div>
         
         <div 
-          className='flex md:hidden absolute z-50  bg-transparent '>
+          className='fixed  md:hidden absolute  z-50  bg-transparent '>
            <Mobilebar user={user && user} />
         </div>
 

@@ -13,7 +13,7 @@ const Mobilebar = ({user}) => {
   return <div >
         <div className=' w-screen  bg-transparent hide-scrollbar '>
             <div className='fixed w-full inset-x-0 bottom-3 h-14 bg-zinc-300  rounded-full '>
-                <div className='flex justify-around items-center relative z-50 '>
+                <div className='flex justify-around items-center relative  '>
                     <NavLink to='/'
                         className={({ isActive }) => (isActive ? isActiveStyle : isNotActiveStyle)}
                     >
