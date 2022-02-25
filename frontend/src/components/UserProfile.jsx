@@ -149,4 +149,16 @@ const UserProfile = () => {
                       <div className='flex justify-center mt-10 z-30'>
                         Nema slika...
                         </div>
-                   
+                    )
+
+                    }
+                        
+                    
+                    
+
+          
+    
+    </div>;
+};
+
+export default UserProfile;
